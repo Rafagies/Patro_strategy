@@ -16,5 +16,6 @@ public class Patro_strategy_equip {
     public static void main(String[] args) {
         // TODO code application logic here
         // Aquest es el primer fitxer del projecte que creen
+        // ho ha fet Rafa Giménez
     }
 }
