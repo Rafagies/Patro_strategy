@@ -17,5 +17,7 @@ public class Patro_strategy_equip {
         // TODO code application logic here
         // Aquest es el primer fitxer del projecte que creen
         // ho ha fet Rafa Giménez
+        
+        //Canvi en PAlbero
     }
 }
