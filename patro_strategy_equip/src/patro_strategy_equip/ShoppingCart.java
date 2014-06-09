@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Vicent Biendicho
- * @version 23
+ * @author Jose Antonio Ferrer Sierra
+ * @version 21
  * Cal que fiques nom d'autor el teu, versio la teua edat, 
  * 
  * Crea una branca del projecte amb el teu nom i el tornes a pujar al respositori amb el nom de la teua branca
@@ -25,7 +25,7 @@ public class ShoppingCart {
     List<Item> items;
      
     public ShoppingCart(){
-        this.items=new ArrayList<Item>();
+        this.items=new ArrayList<>();
     }
      
     public void addItem(Item item){

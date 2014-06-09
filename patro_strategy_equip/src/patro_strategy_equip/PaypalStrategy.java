@@ -4,8 +4,8 @@
 package patro_strategy_equip;
 
 /**
- * @author Vicent Biendicho
- * @version 23
+ * @author Jose Antonio Ferrer Sierra
+ * @version 21
  * Cal que fiques nom d'autor el teu, versio la teua edat, 
  * 
  * Crea una branca del projecte amb el teu nom i el tornes a pujar al respositori amb el nom de la teua branca
@@ -18,6 +18,8 @@ public class PaypalStrategy implements PaymentStrategy {
              
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+     * @param email
+     * @param pwd
     */ 
     
     public PaypalStrategy(String email, String pwd){
