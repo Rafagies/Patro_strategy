@@ -3,8 +3,10 @@
  */
 package patro_strategy_equip;
 
-/* 
- * Cal que fiques nom d'autor el teu, versio la teua edat, 
+/**
+ * @author Joan Gilabert
+ * @version 19  
+ * 
  * Crea una branca del projecte amb el teu nom i el tornes a pujar al respositori amb el nom de la teua branca
  *
  */
@@ -19,9 +21,12 @@ public class CreditCardStrategy implements PaymentStrategy {
      
          
    /**
-    * per a cada métode descriu els paràmetres per a generar el javadoc
-    */ 
-    
+    * 
+    * @param nm String
+    * @param ccNum String
+    * @param cvv  String
+    * @param expiryDate String
+    */
     public CreditCardStrategy(String nm, String ccNum, String cvv, String expiryDate){
    
         this.name=nm;
@@ -29,6 +34,10 @@ public class CreditCardStrategy implements PaymentStrategy {
         this.cvv=cvv;
         this.dateOfExpiry=expiryDate;
     }
+    /**
+     * 
+     * @param amount Enter
+     */
     @Override
     public void pay(int amount) {
         System.out.println(amount +" paid with credit/debit card");
