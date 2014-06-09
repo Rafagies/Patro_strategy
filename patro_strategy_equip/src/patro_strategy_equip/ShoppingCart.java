@@ -6,7 +6,9 @@ package patro_strategy_equip;
 import java.util.ArrayList;
 import java.util.List;
 
-/* 
+/**
+ * @autor SalvaPuig
+ * @version 27
  * Cal que fiques nom d'autor el teu, versio la teua edat, 
  * 
  * Crea una branca del projecte amb el teu nom i el tornes a pujar al respositori amb el nom de la teua branca
@@ -17,6 +19,7 @@ public class ShoppingCart {
              
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+    * @items es una llista de la classe Item
     */ 
     
     //List of items
