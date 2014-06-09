@@ -16,6 +16,8 @@ public class PaypalStrategy implements PaymentStrategy {
              
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+     * @param email String email
+     * @param pwd String contraseña
     */ 
     
     public PaypalStrategy(String email, String pwd){

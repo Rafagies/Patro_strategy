@@ -14,6 +14,7 @@ public class Patro_strategy_equip {
            
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+     * @param args String[] argumentos del main
     */ 
     
     public static void main(String[] args) {

@@ -15,6 +15,8 @@ public class Item {
              
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+     * @param upc String upcCode
+     * @param cost int preu
     */ 
     
     

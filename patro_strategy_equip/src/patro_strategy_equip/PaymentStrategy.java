@@ -13,6 +13,7 @@ public interface PaymentStrategy {
              
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
+     * @param amount int 
     */ 
     
       public void pay(int amount);
