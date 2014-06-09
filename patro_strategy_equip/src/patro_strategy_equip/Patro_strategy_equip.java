@@ -1,18 +1,21 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Exercici de Javadoc
  */
 package patro_strategy_equip;
 
-/**
+/* 
+ * Cal que fiques nom d'autor el teu, versio la teua edat, 
  *
- * @author Rafagimenez
+ * Crea una branca del projecte amb el teu nom i el tornes a pujar al respositori amb el nom de la teua branca
+ *
  */
 public class Patro_strategy_equip {
 
-    /**
-     * @param args the command line arguments
-     */
+           
+   /**
+    * per a cada métode descriu els paràmetres per a generar el javadoc
+    */ 
+    
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
          
