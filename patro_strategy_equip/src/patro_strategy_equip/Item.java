@@ -17,6 +17,11 @@ public class Item {
     * per a cada métode descriu els paràmetres per a generar el javadoc
     */ 
     
+    /**
+     * 
+     * @param upc és un String
+     * @param cost és un int
+     */
     
     public Item(String upc, int cost){
         this.upcCode=upc;

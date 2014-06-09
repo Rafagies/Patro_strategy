@@ -20,8 +20,15 @@ public class CreditCardStrategy implements PaymentStrategy {
          
    /**
     * per a cada métode descriu els paràmetres per a generar el javadoc
-    */ 
+    */
     
+  /**
+   * 
+   * @param nm és un String
+   * @param ccNum és un String
+   * @param cvv és un String
+   * @param expiryDate és un String
+   */
     public CreditCardStrategy(String nm, String ccNum, String cvv, String expiryDate){
    
         this.name=nm;

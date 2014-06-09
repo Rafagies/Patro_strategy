@@ -22,14 +22,24 @@ public class ShoppingCart {
     //List of items
     List<Item> items;
      
+    /**
+     * 
+     */
     public ShoppingCart(){
         this.items=new ArrayList<Item>();
     }
      
+    /**
+     * 
+     * @param item és de tipus Item que du atributs de String i int
+     */
     public void addItem(Item item){
         this.items.add(item);
     }
-     
+     /**
+     * 
+     * @param item és de tipus Item que du atributs de String i int
+     */
     public void removeItem(Item item){
         this.items.remove(item);
     }
