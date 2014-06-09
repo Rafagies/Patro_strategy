@@ -44,6 +44,11 @@ public class ShoppingCart {
         return sum;
     }
      
+    /**
+     * 
+     * @param paymentMethod es PaymentStrategy 
+     */ 
+    
     public void pay(PaymentStrategy paymentMethod){
         int amount = calculateTotal();
         paymentMethod.pay(amount);

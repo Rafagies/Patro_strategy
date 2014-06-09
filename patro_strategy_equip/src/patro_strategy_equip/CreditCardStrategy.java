@@ -19,10 +19,15 @@ public class CreditCardStrategy implements PaymentStrategy {
     private String cvv;
     private String dateOfExpiry;
      
-         
-   /**
-    * per a cada métode descriu els paràmetres per a generar el javadoc
-    */ 
+
+    
+    /**
+     * 
+     * @param nm es String
+     * @param ccNum es String
+     * @param cvv es String
+     * @param expiryDate es String
+     */
     
     public CreditCardStrategy(String nm, String ccNum, String cvv, String expiryDate){
    
@@ -31,6 +36,12 @@ public class CreditCardStrategy implements PaymentStrategy {
         this.cvv=cvv;
         this.dateOfExpiry=expiryDate;
     }
+    
+    /**
+     * 
+     * @param amount es Integer 
+     */
+    
     @Override
     public void pay(int amount) {
         System.out.println(amount +" paid with credit/debit card");

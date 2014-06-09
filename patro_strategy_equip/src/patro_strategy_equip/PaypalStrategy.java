@@ -16,15 +16,24 @@ public class PaypalStrategy implements PaymentStrategy {
     private String password;
      
              
-   /**
-    * per a cada métode descriu els paràmetres per a generar el javadoc
-    */ 
+
+    /**
+     * 
+     * @param email es String
+     * @param pwd es String
+
+     */
     
     public PaypalStrategy(String email, String pwd){
         this.emailId=email;
         this.password=pwd;
     }
      
+    /**
+     * 
+     * @param amount es Integer
+     */
+    
     @Override
     public void pay(int amount) {
         System.out.println(amount + " paid using Paypal.");
